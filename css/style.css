@@ -58,20 +58,14 @@ body {
     color: inherit;
 }
 
-.link-mailto {
-    color: #2196F3;
-}
-
+.link-mailto,
 .link-tel {
     color: #757575;
 }
 
-.link-studio {
-    color: #2196F3;
-}
-
-.link:hover,
-.link:focus {
+.link:hover
+.link:focus
+{
   color: var(--accent-color);
 }
 
