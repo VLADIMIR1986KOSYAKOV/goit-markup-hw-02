@@ -58,12 +58,16 @@ body {
     color: inherit;
 }
 
-.link-studio {
+.link-mailto {
     color: #2196F3;
 }
 
 .link-tel {
     color: #757575;
+}
+
+.link-studio {
+    color: #2196F3;
 }
 
 .link:hover,
@@ -112,6 +116,16 @@ body {
     line-height: 1.19x;       
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+  }
+
+  .logo-footer {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19x;       
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
   }
 
   .logo-web {
@@ -189,6 +203,35 @@ body {
         color: #757575;
     }
 
+    .footer {
+        background-color: #2F303A;
+    }
+
+    .page-adress {
+        font-weight: normal;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;        
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
+
+    .link-mailto-footer {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.71;        
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .link-tel-footer {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.71;      
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
 
 
 
