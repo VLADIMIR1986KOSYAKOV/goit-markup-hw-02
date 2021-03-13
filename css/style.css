@@ -63,11 +63,25 @@ body {
     color: #757575;
 }
 
-.link:hover
-.link:focus
-{
-  color: var(--accent-color);
-}
+.link:hover{
+    color: var(--accent-color);
+  }
+
+  .logo:hover{
+    color: var(--accent-color);  
+  }
+
+  .logo-footer:hover{
+    color: var(--accent-color);  
+  }
+
+  .link-mailto-footer:hover{
+    color: var(--accent-color);
+  }
+
+  .link-tel-footer:hover{
+    color: var(--accent-color);  
+  }
 
 .list,
 .list-command {
