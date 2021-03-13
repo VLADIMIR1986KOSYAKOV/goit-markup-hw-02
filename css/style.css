@@ -2,7 +2,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    src: url('../fonts/roboto-v20-latin_cyrillic-ext_cyrillic-500.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/roboto-v20-latin_cyrillic-ext_cyrillic/roboto-v20-latin_cyrillic-ext_cyrillic-500.eot'); /* IE9 Compat Modes */
     src: local(''),
          url('../fonts/roboto-v20-latin_cyrillic-ext_cyrillic-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
          url('../fonts/roboto-v20-latin_cyrillic-ext_cyrillic-500.woff2') format('woff2'), /* Super Modern Browsers */
@@ -15,7 +15,7 @@
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    src: url('../fonts/raleway-v19-latin_cyrillic-ext_cyrillic-700.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/raleway-v19-latin_cyrillic-ext_cyrillic/raleway-v19-latin_cyrillic-ext_cyrillic-700.eot'); /* IE9 Compat Modes */
     src: local(''),
          url('../fonts/raleway-v19-latin_cyrillic-ext_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
          url('../fonts/raleway-v19-latin_cyrillic-ext_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
@@ -25,25 +25,83 @@
   }
   :root {
     --main-text-color: #212121;;
-    --dark-bg-text-color: #9da4bd;
-    --accent-color: #ff6c00;
-    --title-color: #303030;
-    --dark-bg-color: #191c26;
-    --second-bg-color: #f7f7f7;
+    --accent-color: #2196F3;
+    --title-color: #212121;
+    --dark-bg-color: #2F303A;
+    --second-bg-color: #E5E5E5;
     --title-font: "Raleway", sans-serif;
   }
 }
-body{
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 1.14;
-color: #212121;;
+body {
+    background-color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.14;
+    color: #212121;
 }
 
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+  }
+
 .link {
-text-decoration: none;
-color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+  }
+
+  .button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;       
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);     
+}
+
+.title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;       
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+}
+.page-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.socials-list {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    color: var(--title-color);
+  }
