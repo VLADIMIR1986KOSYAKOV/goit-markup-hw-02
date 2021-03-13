@@ -29,11 +29,9 @@
     --title-color: #212121;
     --dark-bg-color: #2F303A;
     --second-bg-color: #E5E5E5;
-    --title-font: "Raleway", sans-serif;
-  }
+     }
 }
 body {
-    background-color: #FFFFFF;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -41,6 +39,7 @@ body {
     line-height: 16px;
     letter-spacing: 1.14;
     color: #212121;
+    background-color: #FFFFFF;
 }
 
 .visually-hidden {
@@ -59,6 +58,14 @@ body {
     color: inherit;
 }
 
+.link-studio {
+    color: #2196F3;
+}
+
+.link-tel {
+    color: #757575;
+}
+
 .link:hover,
 .link:focus {
   color: var(--accent-color);
@@ -66,6 +73,9 @@ body {
 
 .list {
     list-style: none;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em; 
   }
 
   .button {
@@ -74,13 +84,11 @@ body {
     line-height: 1.62;       
     text-align: center;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--title-color);     
+    color: var(--title-color);
+    cursor: pointer;     
 }
 
 .title {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;       
@@ -90,8 +98,6 @@ body {
     color: #FFFFFF;
 }
 .page-title {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
@@ -105,3 +111,49 @@ body {
     line-height: 1.36;
     color: var(--title-color);
   }
+
+  .logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19x;       
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+  }
+
+  .logo-web {
+    color: var(--accent-color);
+}
+
+.hero {
+    
+    background: #2F303A;
+}
+
+.title-hero {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36x;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF; 
+}
+
+.button-hero {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    }
+
+
+  
