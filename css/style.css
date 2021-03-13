@@ -71,11 +71,9 @@ body {
   color: var(--accent-color);
 }
 
-.list {
-    list-style: none;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em; 
+.list,
+.list-command {
+    list-style: none;    
   }
 
   .button {
@@ -97,13 +95,7 @@ body {
     text-transform: uppercase;    
     color: #FFFFFF;
 }
-.page-title {
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
+
 
 .socials-list {
     font-weight: 600;
@@ -154,6 +146,52 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     }
+
+    .list-title {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+    }
+
+    .page-list-title {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+
+    .page-title {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+    }
+
+    .title-list-command {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;        
+        letter-spacing: 0.03em;
+        color: #212121;
+    }
+
+    .page-list-command {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+
+
+
+
 
 
   
