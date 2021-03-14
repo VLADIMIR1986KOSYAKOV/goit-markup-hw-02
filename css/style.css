@@ -4,20 +4,18 @@ body {
     font-family: 'Roboto', sans-serif; 
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 1.14;
     color: #212121;
     background-color: #FFFFFF;
 }
 
 :root {
-    --main-text-color: #212121;;
+    --main-text-color: #212121;
     --accent-color: #2196F3;
     --title-color: #212121;
     --dark-bg-color: #2F303A;
     --second-bg-color: #E5E5E5;
-     }
+    --mailto-tel:#757575;
+    }
 
 .visually-hidden {
     position: absolute !important;
@@ -35,37 +33,19 @@ body {
     color: inherit;
     }
 
-.link .current{
+.link.current{
     color: var(--accent-color)   
 }
 
-.link-mailto,
-.link-tel {
-    color: #757575;
-}
 
 .link:hover,
-.link:focus {
+.link:focus{
     color: var(--accent-color);
-  }
+}
 
-  .logo:hover,
-  .logo:focus {
-    color: var(--accent-color);  
-  }
-
-  .logo-footer:hover{
-    color: var(--accent-color);  
-  }
-
-  .link-mailto-footer:hover{
-    color: var(--accent-color);
-  }
-
-  .link-tel-footer:hover{
-    color: var(--accent-color);  
-  }
-
+.link-mailto .link-tel{
+    color: var(--mailto-tel);
+}
 .list,
 .list-command {
     list-style: none;    
