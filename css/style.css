@@ -6,6 +6,7 @@ body {
     font-weight: 500;
     color: #212121;
     background-color: #FFFFFF;
+    
 }
 
 :root {
@@ -14,7 +15,12 @@ body {
     --title-color: #212121;
     --dark-bg-color: #2F303A;
     --second-bg-color: #E5E5E5;
-    --mailto-tel:#757575;
+    --mailto-color:#757575;
+    --text-button:#FFFFFF;
+    --bg-button:#2196F3;
+    --page-portfolio:#757575;
+    --page-title-portfolio:#212121;
+    --link-mailto-footer:rgba(255, 255, 255, 0.6);
     }
 
 .visually-hidden {
@@ -37,15 +43,16 @@ body {
     color: var(--accent-color)   
 }
 
-
 .link:hover,
-.link:focus{
+.link:focus
+{
     color: var(--accent-color);
 }
 
-.link-mailto .link-tel{
-    color: var(--mailto-tel);
+.link-mailto-footer:hover{
+    color: var(--accent-color);
 }
+
 .list,
 .list-command {
     list-style: none;    
@@ -55,7 +62,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;       
-    text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
     cursor: pointer;     
@@ -65,7 +71,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;    
-    text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
     cursor: pointer;
@@ -74,7 +79,13 @@ body {
 }
 
 .button-portfolio:hover {
-    color: var(--accent-color);
+    color: var(--text-button);
+    background-color: var(--bg-button);
+}
+
+.button-portfolio:focus {
+    color: var(--text-button);
+    background-color: var(--bg-button);
 }
 
 .title {
@@ -126,8 +137,7 @@ body {
 .title-hero {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36x;
-    text-align: center;
+    line-height: 1.36x;    
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF; 
@@ -136,10 +146,7 @@ body {
 .button-hero {
     font-weight: bold;
     font-size: 16px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    line-height: 30px;    
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background: #2196F3;
@@ -202,7 +209,7 @@ body {
         color: #FFFFFF;
     }
 
-    .link-mailto-footer {
+    .link .link-mailto-footer {
         font-weight: normal;
         font-size: 14px;
         line-height: 1.71;        
@@ -215,7 +222,7 @@ body {
         font-size: 14px;
         line-height: 1.71;      
         letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
+        color: var(--link-mailto-footer);
     }
 
     .page-title-portfolio {
@@ -223,15 +230,14 @@ body {
         font-size: 18px;
         line-height: 2.0;
         letter-spacing: 0.06em;
-        color: #212121;
+        color: var(--page-title-portfolio);
     }
 
-    .page-portfolio {
-        font-weight: normal;
+    .page-portfolio {        
         font-size: 16px;
         line-height: 1.87;        
         letter-spacing: 0.03em;
-        color: #757575;
+        color: var(--page-portfolio);
     }
 
     
