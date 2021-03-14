@@ -20,7 +20,8 @@ body {
     --bg-button:#2196F3;
     --page-portfolio:#757575;
     --page-title-portfolio:#212121;
-    --link-mailto-footer:rgba(255, 255, 255, 0.6);
+    --mailto-footer:rgba(255, 255, 255, 0.6);
+    --tel-footer:rgba(255, 255, 255, 0.6);
     }
 
 .visually-hidden {
@@ -49,8 +50,39 @@ body {
     color: var(--accent-color);
 }
 
-.link-mailto-footer:hover{
+.link .mailto-footer:hover{
     color: var(--accent-color);
+}
+.link .mailto-footer:focus{
+    color: var(--accent-color);
+}
+
+.link .logo:hover{
+    color: var(--accent-color);
+}
+.link .logo:focus{
+    color: var(--accent-color);
+}
+
+.link .logo-footer:hover{
+    color: var(--accent-color);
+}
+.link .logo-footer:focus{
+    color: var(--accent-color);
+}
+
+.mailto-footer {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--mailto-footer);
+}
+
+.tel-footer {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--mailto-footer);
 }
 
 .list,
