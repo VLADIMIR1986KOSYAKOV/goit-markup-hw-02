@@ -241,7 +241,7 @@ body {
         color: #FFFFFF;
     }
 
-    .link .link-mailto-footer {
+    .link .mailto-footer {
         font-weight: normal;
         font-size: 14px;
         line-height: 1.71;        
@@ -249,7 +249,7 @@ body {
         color: rgba(255, 255, 255, 0.6);
     }
 
-    .link-tel-footer {
+    .link .tel-footer {
         font-weight: normal;
         font-size: 14px;
         line-height: 1.71;      
