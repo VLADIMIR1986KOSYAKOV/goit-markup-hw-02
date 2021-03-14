@@ -18,7 +18,7 @@ body {
     --dark-bg-color: #2F303A;
     --second-bg-color: #E5E5E5;
      }
-     
+
 .visually-hidden {
     position: absolute !important;
     clip: rect(1px 1px 1px 1px);
@@ -33,6 +33,10 @@ body {
 .link {
     text-decoration: none;
     color: inherit;
+    }
+
+.link .current{
+    color: var(--accent-color)   
 }
 
 .link-mailto,
@@ -249,6 +253,8 @@ body {
         letter-spacing: 0.03em;
         color: #757575;
     }
+
+    
     
 
 
