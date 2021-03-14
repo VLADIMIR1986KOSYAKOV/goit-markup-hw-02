@@ -1,13 +1,7 @@
-    :root {
-    --main-text-color: #212121;;
-    --accent-color: #2196F3;
-    --title-color: #212121;
-    --dark-bg-color: #2F303A;
-    --second-bg-color: #E5E5E5;
-     }
-}
+    
 body {
-    font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif; 
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -17,6 +11,14 @@ body {
     background-color: #FFFFFF;
 }
 
+:root {
+    --main-text-color: #212121;;
+    --accent-color: #2196F3;
+    --title-color: #212121;
+    --dark-bg-color: #2F303A;
+    --second-bg-color: #E5E5E5;
+     }
+     
 .visually-hidden {
     position: absolute !important;
     clip: rect(1px 1px 1px 1px);
