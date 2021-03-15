@@ -78,6 +78,20 @@ body {
     color: var(--mailto-footer);
 }
 
+.link-mailto {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--mailto-color);
+}
+
+.link-tel {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--mailto-color)
+}
+
 .tel-footer {
     font-size: 14px;
     line-height: 1.71;
