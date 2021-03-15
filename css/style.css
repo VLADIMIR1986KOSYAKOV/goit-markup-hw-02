@@ -152,16 +152,7 @@ body {
     color: var(--title-color);
   }
 
-  .logo {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19x;       
-    letter-spacing: 0.03em;
-    color: var(--main-text-color);
-  }
-
+  .logo,
   .logo-footer {
     font-family: Raleway;
     font-style: normal;
@@ -169,7 +160,15 @@ body {
     font-size: 26px;
     line-height: 1.19x;       
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    
+  }
+
+  .logo {
+    color: var(--main-text-color);
+  }
+
+  .logo-footer {    
+    color: var( --text-button);
   }
 
   .logo-web {
